@@ -40,6 +40,10 @@ body {
   animation: opening 1s ease-in-out;
 }
 
+section {
+  margin: 10rem 0rem;
+}
+
 h1 {
   font-size: var(--header1);
   font-family: "Vibes", sans-serif;
@@ -160,6 +164,7 @@ nav {
   animation: plant-entrance 1.5s ease-in-out 0.2s forwards,
     plant-shake 2.5s infinite ease alternate-reverse 2s;
   transform-origin: bottom;
+  max-height: 80%;
 }
 
 .plant2 {
@@ -215,6 +220,10 @@ nav {
     display: block;
   }
   */
+
+  .hero {
+    width: 100%;
+  }
 
   .hamburger {
     cursor: pointer;
@@ -276,11 +285,6 @@ nav {
 
   li.fade {
     opacity: 1;
-  }
-
-  .hero {
-    width: 90%;
-    margin: auto;
   }
 }
 
